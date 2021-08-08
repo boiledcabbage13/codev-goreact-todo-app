@@ -1,0 +1,10 @@
+For frontend:
+1. go to frontend folder
+2. run "npm install" (see package.json for dependencies)
+3. run "npm run serve"
+
+For backend
+1. got to backend folder
+2. run "composer install" (see composer.json for dependencies)
+3. run "php artisan migrate"
+4. run "php artisan serve"
