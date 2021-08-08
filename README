@@ -1,10 +1,12 @@
 For frontend:
-1. go to frontend folder
-2. run "npm install" (see package.json for dependencies)
-3. run "npm run serve"
+- go to frontend folder
+- run "npm install" (see package.json for dependencies)
+- run "npm run serve"
 
 For backend
-1. got to backend folder
-2. run "composer install" (see composer.json for dependencies)
-3. run "php artisan migrate"
-4. run "php artisan serve"
+- got to backend folder
+- use .env.example as .env
+- create database using the values on .env 
+- run "composer install" (see composer.json for dependencies)
+- run "php artisan migrate"
+- run "php artisan serve"
